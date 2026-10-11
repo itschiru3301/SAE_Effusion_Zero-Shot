@@ -1,0 +1,14 @@
+{
+  "weights": "MSAE_CheXzero_512_16384_256x512_reverse.pth",
+  "train_captions": 2328709,
+  "heldout_reconstruction_cosine": 0.9981613755226135,
+  "epochs": 10,
+  "batch_size": 2048,
+  "lr": 0.0001,
+  "latent": 16384,
+  "topk": [
+    256,
+    512
+  ],
+  "corpus": "Conceptual Captions 3M (unique captions)"
+}

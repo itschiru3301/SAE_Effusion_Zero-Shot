@@ -1,0 +1,6 @@
+data/
+models/
+third_party/
+artifacts/
+__pycache__/
+*.pyc

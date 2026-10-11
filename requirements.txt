@@ -1,0 +1,12 @@
+torch==2.4.0
+torchvision==0.19.0
+clip @ git+https://github.com/openai/CLIP.git
+numpy
+pandas
+pyarrow
+pillow
+scikit-learn
+scipy
+tqdm
+huggingface_hub
+gdown

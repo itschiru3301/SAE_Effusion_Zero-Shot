@@ -1,0 +1,320 @@
+{
+  "zero-shot": {
+    "val": {
+      "worst": 0.54,
+      "overall": 0.815,
+      "groups": {
+        "no_effusion|PA+no_device": {
+          "acc": 0.94,
+          "n": 50
+        },
+        "no_effusion|PA+device": {
+          "acc": 0.9,
+          "n": 50
+        },
+        "no_effusion|AP+no_device": {
+          "acc": 0.66,
+          "n": 50
+        },
+        "no_effusion|AP+device": {
+          "acc": 0.54,
+          "n": 50
+        },
+        "effusion|PA+no_device": {
+          "acc": 0.7,
+          "n": 50
+        },
+        "effusion|PA+device": {
+          "acc": 0.84,
+          "n": 50
+        },
+        "effusion|AP+no_device": {
+          "acc": 0.96,
+          "n": 50
+        },
+        "effusion|AP+device": {
+          "acc": 0.98,
+          "n": 50
+        }
+      },
+      "effusion_auc": 0.8857999999999999,
+      "acc_cues_agree": 0.96,
+      "acc_cues_contradict": 0.62,
+      "pred_effusion_rate": 0.555,
+      "shortcut_auc_view": 0.67905,
+      "shortcut_auc_view_ci": [
+        0.6265514366532595,
+        0.7305535239116775
+      ],
+      "shortcut_auc_device": 0.6648,
+      "shortcut_auc_device_ci": [
+        0.6100865645523164,
+        0.7196765979080966
+      ]
+    },
+    "test": {
+      "worst": 0.51,
+      "overall": 0.795,
+      "groups": {
+        "no_effusion|PA+no_device": {
+          "acc": 0.94,
+          "n": 100
+        },
+        "no_effusion|PA+device": {
+          "acc": 0.87,
+          "n": 100
+        },
+        "no_effusion|AP+no_device": {
+          "acc": 0.57,
+          "n": 100
+        },
+        "no_effusion|AP+device": {
+          "acc": 0.51,
+          "n": 100
+        },
+        "effusion|PA+no_device": {
+          "acc": 0.73,
+          "n": 100
+        },
+        "effusion|PA+device": {
+          "acc": 0.82,
+          "n": 100
+        },
+        "effusion|AP+no_device": {
+          "acc": 0.94,
+          "n": 100
+        },
+        "effusion|AP+device": {
+          "acc": 0.98,
+          "n": 100
+        }
+      },
+      "effusion_auc": 0.86553125,
+      "acc_cues_agree": 0.96,
+      "acc_cues_contradict": 0.62,
+      "pred_effusion_rate": 0.5725,
+      "shortcut_auc_view": 0.670475,
+      "shortcut_auc_view_ci": [
+        0.6344493205270544,
+        0.7053919251416209
+      ],
+      "shortcut_auc_device": 0.6320625000000001,
+      "shortcut_auc_device_ci": [
+        0.5919261739570172,
+        0.668215346452248
+      ]
+    }
+  },
+  "SEM_b": {
+    "val": {
+      "worst": 0.66,
+      "overall": 0.8175,
+      "groups": {
+        "no_effusion|PA+no_device": {
+          "acc": 0.96,
+          "n": 50
+        },
+        "no_effusion|PA+device": {
+          "acc": 0.94,
+          "n": 50
+        },
+        "no_effusion|AP+no_device": {
+          "acc": 0.7,
+          "n": 50
+        },
+        "no_effusion|AP+device": {
+          "acc": 0.66,
+          "n": 50
+        },
+        "effusion|PA+no_device": {
+          "acc": 0.66,
+          "n": 50
+        },
+        "effusion|PA+device": {
+          "acc": 0.84,
+          "n": 50
+        },
+        "effusion|AP+no_device": {
+          "acc": 0.86,
+          "n": 50
+        },
+        "effusion|AP+device": {
+          "acc": 0.92,
+          "n": 50
+        }
+      },
+      "effusion_auc": 0.8972749999999999,
+      "acc_cues_agree": 0.94,
+      "acc_cues_contradict": 0.66,
+      "pred_effusion_rate": 0.5025,
+      "shortcut_auc_view": 0.5988,
+      "shortcut_auc_view_ci": [
+        0.5415453115892211,
+        0.6555403115914664
+      ],
+      "shortcut_auc_device": 0.65115,
+      "shortcut_auc_device_ci": [
+        0.5948256801498231,
+        0.7056998841119706
+      ]
+    },
+    "test": {
+      "worst": 0.65,
+      "overall": 0.80375,
+      "groups": {
+        "no_effusion|PA+no_device": {
+          "acc": 0.97,
+          "n": 100
+        },
+        "no_effusion|PA+device": {
+          "acc": 0.89,
+          "n": 100
+        },
+        "no_effusion|AP+no_device": {
+          "acc": 0.69,
+          "n": 100
+        },
+        "no_effusion|AP+device": {
+          "acc": 0.65,
+          "n": 100
+        },
+        "effusion|PA+no_device": {
+          "acc": 0.71,
+          "n": 100
+        },
+        "effusion|PA+device": {
+          "acc": 0.79,
+          "n": 100
+        },
+        "effusion|AP+no_device": {
+          "acc": 0.84,
+          "n": 100
+        },
+        "effusion|AP+device": {
+          "acc": 0.89,
+          "n": 100
+        }
+      },
+      "effusion_auc": 0.8733437500000001,
+      "acc_cues_agree": 0.93,
+      "acc_cues_contradict": 0.68,
+      "pred_effusion_rate": 0.50375,
+      "shortcut_auc_view": 0.5948,
+      "shortcut_auc_view_ci": [
+        0.5557354656978828,
+        0.6309463125948107
+      ],
+      "shortcut_auc_device": 0.6217125000000001,
+      "shortcut_auc_device_ci": [
+        0.5833047307688537,
+        0.6602789605812567
+      ]
+    }
+  },
+  "SEM_bi": {
+    "val": {
+      "worst": 0.6,
+      "overall": 0.815,
+      "groups": {
+        "no_effusion|PA+no_device": {
+          "acc": 0.96,
+          "n": 50
+        },
+        "no_effusion|PA+device": {
+          "acc": 0.92,
+          "n": 50
+        },
+        "no_effusion|AP+no_device": {
+          "acc": 0.7,
+          "n": 50
+        },
+        "no_effusion|AP+device": {
+          "acc": 0.6,
+          "n": 50
+        },
+        "effusion|PA+no_device": {
+          "acc": 0.66,
+          "n": 50
+        },
+        "effusion|PA+device": {
+          "acc": 0.86,
+          "n": 50
+        },
+        "effusion|AP+no_device": {
+          "acc": 0.9,
+          "n": 50
+        },
+        "effusion|AP+device": {
+          "acc": 0.92,
+          "n": 50
+        }
+      },
+      "effusion_auc": 0.892275,
+      "acc_cues_agree": 0.94,
+      "acc_cues_contradict": 0.63,
+      "pred_effusion_rate": 0.52,
+      "shortcut_auc_view": 0.62825,
+      "shortcut_auc_view_ci": [
+        0.5727276317497357,
+        0.6823287759214034
+      ],
+      "shortcut_auc_device": 0.6636,
+      "shortcut_auc_device_ci": [
+        0.6062838336083288,
+        0.7188213018455035
+      ]
+    },
+    "test": {
+      "worst": 0.6,
+      "overall": 0.8075,
+      "groups": {
+        "no_effusion|PA+no_device": {
+          "acc": 0.97,
+          "n": 100
+        },
+        "no_effusion|PA+device": {
+          "acc": 0.89,
+          "n": 100
+        },
+        "no_effusion|AP+no_device": {
+          "acc": 0.67,
+          "n": 100
+        },
+        "no_effusion|AP+device": {
+          "acc": 0.6,
+          "n": 100
+        },
+        "effusion|PA+no_device": {
+          "acc": 0.7,
+          "n": 100
+        },
+        "effusion|PA+device": {
+          "acc": 0.82,
+          "n": 100
+        },
+        "effusion|AP+no_device": {
+          "acc": 0.87,
+          "n": 100
+        },
+        "effusion|AP+device": {
+          "acc": 0.94,
+          "n": 100
+        }
+      },
+      "effusion_auc": 0.872225,
+      "acc_cues_agree": 0.955,
+      "acc_cues_contradict": 0.65,
+      "pred_effusion_rate": 0.525,
+      "shortcut_auc_view": 0.6242125000000001,
+      "shortcut_auc_view_ci": [
+        0.5858918667058857,
+        0.6592673998289992
+      ],
+      "shortcut_auc_device": 0.6346375,
+      "shortcut_auc_device_ci": [
+        0.5950802784776017,
+        0.6716126238162875
+      ]
+    }
+  }
+}

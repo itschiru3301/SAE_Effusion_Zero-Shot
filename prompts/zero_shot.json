@@ -1,0 +1,8 @@
+{
+  "model": "claude-opus-5-5, fresh blind instance (no conversation context, no tools, no file access)",
+  "source": "class prompts: CheXzero authors' zero-shot pair (\"{}\", \"no {}\") with label 'Pleural Effusion'. ",
+  "class prompts": {
+    "no_effusion": "no Pleural Effusion",
+    "effusion": "Pleural Effusion"
+  }
+}
